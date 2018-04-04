@@ -1,0 +1,106 @@
+.mywraper{
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    background:#ccc;
+}
+.mywraper h1{
+    padding-top: 15px;
+}
+.container
+{
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+.copystyles{
+    position: relative;
+}
+.myform
+{
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+  min-height: 250px;
+  display: flex; 
+  flex-direction: column;
+}
+.myform span
+{
+  border-radius: 1px;
+}
+.myform span input
+{
+  margin: 5px;
+  display: inline;
+  justify-content:space-between;
+  padding-left: 30px;
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+  font-family: Arial;
+  font-size: 18px;
+}
+.myform p
+{
+  font-size: 18px;
+  margin: 5px;
+  padding: 0;
+}
+.down_text a{
+text-decoration: none;
+color:#000;
+}
+.App-button
+{
+  background-color: #84c00c;
+  color:ffffff;
+  border:1px solid #000;
+  width: 78%;
+  height: 50px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius:5px;
+  margin: 8px;
+}
+.fa-fw
+{
+  position: relative;
+    top: 0px;
+    left: 36px;
+}
+
+#root > div > div.container > form > span:nth-child(9) > div > p
+{
+  background: red;
+  color:#ffffff;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media screen and (max-width: 767px) {
+  .myform{
+    width: 100%;
+  }
+  .App
+  {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .myform{
+    width: 100%;
+  } 
+  .App{
+    width: 100%;
+  }
+}
+.error{
+  border:2px solid red;
+}
+button.App-button:disabled {
+  cursor: not-allowed;
+  background: #dbf99f;
+}
